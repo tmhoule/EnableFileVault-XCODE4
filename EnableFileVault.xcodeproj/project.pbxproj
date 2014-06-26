@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844CFA19192D3E4F009D9CDC /* internal-slick-drives-remake.icns in Resources */ = {isa = PBXBuildFile; fileRef = 844CFA18192D3E4F009D9CDC /* internal-slick-drives-remake.icns */; };
+		8498648F192D052900EB3D63 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8498648E192D052900EB3D63 /* Cocoa.framework */; };
+		84986491192D052900EB3D63 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84986490192D052900EB3D63 /* AppleScriptObjC.framework */; };
+		8498649B192D052900EB3D63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84986499192D052900EB3D63 /* InfoPlist.strings */; };
+		8498649D192D052900EB3D63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8498649C192D052900EB3D63 /* main.m */; };
+		849864A1192D052900EB3D63 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8498649F192D052900EB3D63 /* Credits.rtf */; };
+		849864A3192D052900EB3D63 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 849864A2192D052900EB3D63 /* AppDelegate.applescript */; };
+		849864A6192D052900EB3D63 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849864A4192D052900EB3D63 /* MainMenu.xib */; };
+		849864AD192D082400EB3D63 /* csfde in Resources */ = {isa = PBXBuildFile; fileRef = 849864AC192D082400EB3D63 /* csfde */; };
+		849864AF192D082C00EB3D63 /* FileVaultMaster.keychain in Resources */ = {isa = PBXBuildFile; fileRef = 849864AE192D082C00EB3D63 /* FileVaultMaster.keychain */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		844CFA18192D3E4F009D9CDC /* internal-slick-drives-remake.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "internal-slick-drives-remake.icns"; sourceTree = "<group>"; };
+		8498648B192D052900EB3D63 /* EnableFileVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnableFileVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8498648E192D052900EB3D63 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		84986490192D052900EB3D63 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		84986493192D052900EB3D63 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		84986494192D052900EB3D63 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		84986495192D052900EB3D63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84986498192D052900EB3D63 /* EnableFileVault-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EnableFileVault-Info.plist"; sourceTree = "<group>"; };
+		8498649A192D052900EB3D63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8498649C192D052900EB3D63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8498649E192D052900EB3D63 /* EnableFileVault-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EnableFileVault-Prefix.pch"; sourceTree = "<group>"; };
+		849864A0192D052900EB3D63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		849864A2192D052900EB3D63 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		849864A5192D052900EB3D63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		849864AC192D082400EB3D63 /* csfde */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = csfde; sourceTree = "<group>"; };
+		849864AE192D082C00EB3D63 /* FileVaultMaster.keychain */ = {isa = PBXFileReference; lastKnownFileType = file; path = FileVaultMaster.keychain; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84986488192D052900EB3D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8498648F192D052900EB3D63 /* Cocoa.framework in Frameworks */,
+				84986491192D052900EB3D63 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84986482192D052900EB3D63 = {
+			isa = PBXGroup;
+			children = (
+				844CFA18192D3E4F009D9CDC /* internal-slick-drives-remake.icns */,
+				84986496192D052900EB3D63 /* EnableFileVault */,
+				8498648D192D052900EB3D63 /* Frameworks */,
+				8498648C192D052900EB3D63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8498648C192D052900EB3D63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8498648B192D052900EB3D63 /* EnableFileVault.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8498648D192D052900EB3D63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8498648E192D052900EB3D63 /* Cocoa.framework */,
+				84986490192D052900EB3D63 /* AppleScriptObjC.framework */,
+				84986492192D052900EB3D63 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84986492192D052900EB3D63 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84986493192D052900EB3D63 /* AppKit.framework */,
+				84986494192D052900EB3D63 /* CoreData.framework */,
+				84986495192D052900EB3D63 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		84986496192D052900EB3D63 /* EnableFileVault */ = {
+			isa = PBXGroup;
+			children = (
+				849864A2192D052900EB3D63 /* AppDelegate.applescript */,
+				849864A4192D052900EB3D63 /* MainMenu.xib */,
+				84986497192D052900EB3D63 /* Supporting Files */,
+			);
+			path = EnableFileVault;
+			sourceTree = "<group>";
+		};
+		84986497192D052900EB3D63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				849864AE192D082C00EB3D63 /* FileVaultMaster.keychain */,
+				849864AC192D082400EB3D63 /* csfde */,
+				84986498192D052900EB3D63 /* EnableFileVault-Info.plist */,
+				84986499192D052900EB3D63 /* InfoPlist.strings */,
+				8498649C192D052900EB3D63 /* main.m */,
+				8498649E192D052900EB3D63 /* EnableFileVault-Prefix.pch */,
+				8498649F192D052900EB3D63 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8498648A192D052900EB3D63 /* EnableFileVault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849864A9192D052900EB3D63 /* Build configuration list for PBXNativeTarget "EnableFileVault" */;
+			buildPhases = (
+				84986487192D052900EB3D63 /* Sources */,
+				84986488192D052900EB3D63 /* Frameworks */,
+				84986489192D052900EB3D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnableFileVault;
+			productName = EnableFileVault;
+			productReference = 8498648B192D052900EB3D63 /* EnableFileVault.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84986483192D052900EB3D63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Partners;
+			};
+			buildConfigurationList = 84986486192D052900EB3D63 /* Build configuration list for PBXProject "EnableFileVault" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84986482192D052900EB3D63;
+			productRefGroup = 8498648C192D052900EB3D63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8498648A192D052900EB3D63 /* EnableFileVault */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84986489192D052900EB3D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8498649B192D052900EB3D63 /* InfoPlist.strings in Resources */,
+				849864A1192D052900EB3D63 /* Credits.rtf in Resources */,
+				849864A6192D052900EB3D63 /* MainMenu.xib in Resources */,
+				849864AD192D082400EB3D63 /* csfde in Resources */,
+				849864AF192D082C00EB3D63 /* FileVaultMaster.keychain in Resources */,
+				844CFA19192D3E4F009D9CDC /* internal-slick-drives-remake.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84986487192D052900EB3D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8498649D192D052900EB3D63 /* main.m in Sources */,
+				849864A3192D052900EB3D63 /* AppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84986499192D052900EB3D63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8498649A192D052900EB3D63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8498649F192D052900EB3D63 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849864A0192D052900EB3D63 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		849864A4192D052900EB3D63 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849864A5192D052900EB3D63 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849864A7192D052900EB3D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		849864A8192D052900EB3D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		849864AA192D052900EB3D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EnableFileVault/EnableFileVault-Prefix.pch";
+				INFOPLIST_FILE = "EnableFileVault/EnableFileVault-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		849864AB192D052900EB3D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EnableFileVault/EnableFileVault-Prefix.pch";
+				INFOPLIST_FILE = "EnableFileVault/EnableFileVault-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84986486192D052900EB3D63 /* Build configuration list for PBXProject "EnableFileVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849864A7192D052900EB3D63 /* Debug */,
+				849864A8192D052900EB3D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849864A9192D052900EB3D63 /* Build configuration list for PBXNativeTarget "EnableFileVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849864AA192D052900EB3D63 /* Debug */,
+				849864AB192D052900EB3D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84986483192D052900EB3D63 /* Project object */;
+}
